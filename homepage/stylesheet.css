@@ -1,0 +1,60 @@
+html {
+  margin: 0;
+  height: 100%;
+  font-size: 12px;
+  line-height: 1.25rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  bor
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-image: url("https://picsum.photos/1920/1080/?random");
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+section.row3 {
+  grid-row: span 3;
+}
+
+section.row2 {
+  grid-row: span 2;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 5px;
+  margin: 5px;
+  text-decoration: underline;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  padding: 5px;
+  margin: 5px;
+}
+a:hover {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding-left: 10px;
+}
