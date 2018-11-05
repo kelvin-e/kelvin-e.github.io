@@ -29,8 +29,8 @@ section {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-section.row4 {
-  grid-row: span 4;
+section.col4 {
+  grid-column: span 4;
 }
 
 section.row3 {
