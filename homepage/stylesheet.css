@@ -29,16 +29,14 @@ section {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-#downloads {
+section.col4 {
+  grid-column: span 4;
   flex-flow: row wrap;
 }
-#downloads a, #downloads h1 {
+section.col4 a, section.col4 h1 {
   min-width: 150px;
 }
 
-section.col4 {
-  grid-column: span 4;
-}
 
 section.row3 {
   grid-row: span 3;
