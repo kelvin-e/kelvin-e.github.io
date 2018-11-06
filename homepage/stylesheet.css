@@ -32,11 +32,12 @@ section {
 section.col4 {
   grid-column: span 4;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: flex-start;
 }
 section.col4 a, section.col4 h1 {
   width: 150px;
+  flex-grow: 1;
 }
 
 
