@@ -75,6 +75,7 @@ a {
 }
 a.finished {
   text-decoration: line-through;
+  visibility: hidden;
 }
 a:hover {
   color: #ffffff;
