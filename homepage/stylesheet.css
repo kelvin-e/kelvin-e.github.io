@@ -3,8 +3,7 @@ html {
   height: 100%;
   font-size: 12px;
   line-height: 1.25rem;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  bor
+  font-family: sans-serif;
 }
 
 * {
@@ -13,21 +12,14 @@ html {
 
 body {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  background: url("https://picsum.photos/1920/1080/?random") top center fixed;
+  background: url("https://picsum.photos/1920/1080/?image=1022") top center fixed;
   background-size: cover;
 }
-
-@media screen and (max-width: 1024px) {
-  body {
-    display: flex;
-    flex-direction: column;
-   } 
- } 
 
 section {
   display: flex;
@@ -38,21 +30,10 @@ section {
 }
 
 section.col4 {
-  grid-column: span 4;
-  flex-flow: row wrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-  align-content: space-around;
-}
-
-
-
-section.row3 {
-  grid-row: span 3;
-}
-
-section.row2 {
-  grid-row: span 2;
+  grid-column-start: 1;
+  grid-column-end: -1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
 }
 
 h1 {
@@ -67,9 +48,21 @@ h1 {
 a {
   color: #ffffff;
   text-decoration: none;
-  padding: 5px;
-  margin: 5px;
+  padding: 2px;
+  margin: 2px;
 }
 a.finished {
   display: none;
+}
+a span {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  a img {
+    display: none;
+  }
+  a span {
+    display: inline;
+  }
 }
