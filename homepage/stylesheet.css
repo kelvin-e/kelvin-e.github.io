@@ -36,13 +36,20 @@ section.col4 {
   grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
 }
 
-h1 {
+h1, h2 {
   color: #ffffff;
-  font-size: 1rem;
   font-weight: bold;
-  padding: 5px;
-  margin: 5px;
+  padding: 2px;
+  margin: 2px;
   text-decoration: underline;
+}
+h1 {
+  font-size: 1.25rem;
+  line-height: 16px;
+}
+h2 {
+  font-size: 1rem;
+  line-height: 16px;
 }
 
 a {
