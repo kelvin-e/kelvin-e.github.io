@@ -14,10 +14,18 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-gap: 1rem;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   background: url("https://picsum.photos/1920/1080/?image=1022") top center fixed;
   background-size: cover;
+}
+
+@media screen and (min-width: 400px) {
+  body {
+    display: grid;
+    width: 90%;
+    grid-gap: 2rem;
+  }
 }
 
 section {
