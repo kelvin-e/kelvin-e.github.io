@@ -14,8 +14,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-gap: 1rem;
-  width: 100%;
-  max-width: 1200px;
+  width: 90%;
   margin: 0 auto;
   background: url("https://picsum.photos/1920/1080/?image=1022") top center fixed;
   background-size: cover;
@@ -33,7 +32,7 @@ section.col4 {
   grid-column-start: 1;
   grid-column-end: -1;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
 }
 
 h1, h2 {
