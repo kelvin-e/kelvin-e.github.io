@@ -40,3 +40,7 @@ a {
   color: #222;
   text-decoration: none;
 }
+
+.finished {
+  display: none;
+}
