@@ -41,6 +41,6 @@ a {
   text-decoration: none;
 }
 
-.finished {
+li.finished {
   display: none;
 }
