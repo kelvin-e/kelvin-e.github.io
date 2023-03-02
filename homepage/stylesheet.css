@@ -4,6 +4,7 @@ html {
   font-size: 12px;
   line-height: 1.25rem;
   font-family: sans-serif;
+  font-variant: ;
 }
 
 * {
@@ -36,17 +37,20 @@ section.col4 {
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
 }
 
-h1, h2 {
+h1,
+h2 {
   color: #ffffff;
   font-weight: bold;
   padding: 2px;
   margin: 2px;
   text-decoration: underline;
 }
+
 h1 {
   font-size: 1.25rem;
   line-height: 16px;
 }
+
 h2 {
   font-size: 1rem;
   line-height: 16px;
@@ -58,9 +62,11 @@ a {
   padding: 2px;
   margin: 2px;
 }
+
 a.finished {
   display: none;
 }
+
 a span {
   display: none;
 }
@@ -69,6 +75,7 @@ a span {
   a img {
     display: none;
   }
+
   a span {
     display: inline;
   }
