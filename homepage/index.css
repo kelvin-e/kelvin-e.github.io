@@ -6,7 +6,7 @@ body {
   background-color: rgba(186, 191, 199, 0.521);
   background-image: url(images/background.png);
   background-position: top center;
-  font-family: Montserrat Regular, Montserrat, sans serif;
+  font-family: Montserrat Regular, Montserrat, sans-serif;
 }
 
 .masthead {
